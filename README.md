@@ -14,7 +14,7 @@ This is a practice sales dataset of accessories having about 5 million records o
 
 ### Executing program
 
-* How to run the program
+* The following query joins all the tables i.e. **region_table, items_table, order_table, total_table ** and **items_table**.
 ![Untitled1_query](https://user-images.githubusercontent.com/72039550/149822131-14191a12-8f65-4b7a-bee0-ed62a33fe5bb.png)
 
 ![Untitled1_output](https://user-images.githubusercontent.com/72039550/149822139-b799e5d6-6764-49db-9ff4-7a9ad1040529.png)
