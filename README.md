@@ -21,7 +21,7 @@ This is a practice sales dataset of accessories having about 5 million records o
 ![Untitled1_output](https://user-images.githubusercontent.com/72039550/149822139-b799e5d6-6764-49db-9ff4-7a9ad1040529.png)
 
 
-
+<hr>
 
 
 * The following query joins both **sales_table** and **region_table**, with an aggregate function COUNT  on **sales_channel**
