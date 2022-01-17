@@ -44,6 +44,13 @@ This is a practice sales dataset of accessories having about 5 million records o
 
 <hr>
 
+* The following query gives the Average total cost of units that come across the regions (continent / division of continent).
+
+![Untitled5](https://user-images.githubusercontent.com/72039550/149824349-9ecccabd-d2f1-4f70-82bd-1f21cab2c9d0.png)
+
+
+<hr>
+
 
 ## Help
 
