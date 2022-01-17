@@ -21,6 +21,17 @@ This is a practice sales dataset of accessories having about 5 million records o
 ![Untitled1_output](https://user-images.githubusercontent.com/72039550/149822139-b799e5d6-6764-49db-9ff4-7a9ad1040529.png)
 
 
+* The following query joins both **sales_table** and **region_table**, with an aggregate function COUNT  on **sales_channel**
+
+![Untitled2](https://user-images.githubusercontent.com/72039550/149822824-72d1b654-93d5-4cc7-94af-12dac1374a07.png)
+
+
+* The following query shows the country **"Rwanda"** has higher total_revenue and the data is sorted in descending order by **total_revenue** with an alias **TotalRevenue**
+
+![Untitled3](https://user-images.githubusercontent.com/72039550/149823424-385d8b31-a996-4aee-986d-6cc55bbbdea3.png)
+
+
+
 ## Help
 
 Any advise for common problems or issues.
