@@ -11,8 +11,26 @@ This is a practice sales dataset of accessories having about 5 million records o
 
 ## Getting Started
 
+* 1) This is how you can create a database which is called as a dataset in Google BigQuery
 
-### Executing program
+![U1](https://user-images.githubusercontent.com/72039550/149824725-7593b028-a193-404e-b19b-16da8741597e.png)
+
+<hr>
+
+* 2) This is how you can create tables
+![U2](https://user-images.githubusercontent.com/72039550/149824922-b33593d5-cede-42b3-96fe-b971c7c208a1.png)
+
+<hr>
+
+* 3) An example of how to create **items_table**. 
+![U3](https://user-images.githubusercontent.com/72039550/149825407-04f85b70-8937-444d-a260-d7fb8debad98.png)
+
+<hr>
+<hr>
+<hr>
+
+
+## Executing program
 
 * The following query joins all the tables i.e. **region_table**, **items_table**, **order_table**, **total_table** and **items_table** (a total of 5 tables)
 
