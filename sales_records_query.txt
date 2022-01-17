@@ -1,0 +1,42 @@
+SELECT rg.region, rg.country, itm.item_type, itm.sales_channel, ord.order_priority,ord.order_date, ord.ship_date,
+tot.total_revenue, tot.total_cost, tot.total_profit, unt.units_sold, unt.unit_price, unt.unit_cost
+FROM SalesRecords.region_table rg
+INNER JOIN SalesRecords.items_table itm ON rg.region_id = itm.item_id
+INNER JOIN SalesRecords.order_table ord ON itm.item_id = ord.order_id
+INNER JOIN SalesRecords.total_table tot ON ord.order_id = tot.total_id
+INNER JOIN SalesRecords.units_table unt ON tot.total_id = unt.unit_id
+LIMIT 8;
+
+
+
+SELECT rg.region, itm.sales_channel, COUNT(itm.sales_channel) AS SalesChannelCount
+FROM SalesRecords.region_table rg
+INNER JOIN SalesRecords.items_table itm ON rg.region_id = itm.item_id
+GROUP BY rg.region, itm.sales_channel;
+
+
+
+
+
+SELECT rg.country, SUM(tot.total_revenue) AS TotalRevenue
+FROM SalesRecords.region_table rg
+INNER JOIN SalesRecords.total_table tot ON rg.region_id = tot.total_id
+GROUP BY rg.country
+ORDER BY SUM(tot.total_revenue) DESC
+LIMIT 5;
+
+
+
+SELECT itm.sales_channel, SUM(tot.total_profit) AS TotalProfit
+FROM SalesRecords.items_table itm
+INNER JOIN SalesRecords.total_table tot ON itm.item_id = tot.total_id
+GROUP BY itm.sales_channel
+ORDER BY SUM(tot.total_revenue) DESC;
+
+
+
+
+SELECT rg.region, AVG(unt.units_sold) AS AvgUnitsSold
+FROM SalesRecords.region_table rg
+INNER JOIN SalesRecords.units_table unt ON unt.unit_id = rg.region_id
+GROUP BY rg.region;
