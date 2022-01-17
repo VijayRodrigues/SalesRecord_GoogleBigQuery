@@ -22,7 +22,8 @@ This is a practice sales dataset of accessories having about 5 million records o
 
 <hr>
 
-* 3) An example of how to create **items_table**. 
+* 3) An example of how to create **items_table**. Google BigQuery does not allow to manually add files above 10 mb and rows above 100. If the files size is high and numbers of rows are more then we may need to add from **google drive**. SInce my file sie's are more than 600MB I have added through the drive as mentioned.
+
 ![U3](https://user-images.githubusercontent.com/72039550/149825407-04f85b70-8937-444d-a260-d7fb8debad98.png)
 
 * 4)  The following scrrenshot shows all the created tables
@@ -73,32 +74,3 @@ This is a practice sales dataset of accessories having about 5 million records o
 
 
 <hr>
-
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
