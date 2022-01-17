@@ -29,13 +29,20 @@ This is a practice sales dataset of accessories having about 5 million records o
 ![Untitled2](https://user-images.githubusercontent.com/72039550/149822824-72d1b654-93d5-4cc7-94af-12dac1374a07.png)
 
 
-
+<hr>
 
 
 * The following query shows the country **"Rwanda"** has higher total_revenue and the data is sorted in descending order by **total_revenue** with an alias **TotalRevenue**
 
 ![Untitled3](https://user-images.githubusercontent.com/72039550/149823424-385d8b31-a996-4aee-986d-6cc55bbbdea3.png)
 
+
+<hr>
+
+* The following query shows **sales channel preference** between **"online"** and **"offline"**. It shows that although there is no much difference between the total profit, but **offline** channel seems to be a little higher. 
+![Untitled4](https://user-images.githubusercontent.com/72039550/149823932-066ef6c0-1891-4b8a-b03b-dfa9aeeb70ae.png)
+
+<hr>
 
 
 ## Help
