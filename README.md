@@ -25,6 +25,10 @@ This is a practice sales dataset of accessories having about 5 million records o
 * 3) An example of how to create **items_table**. 
 ![U3](https://user-images.githubusercontent.com/72039550/149825407-04f85b70-8937-444d-a260-d7fb8debad98.png)
 
+* 4) The following scrrenshot shows all the created tables
+![U4](https://user-images.githubusercontent.com/72039550/149825639-9c515d32-4698-43c2-8817-2359a855a233.png)
+
+
 <hr>
 <hr>
 <hr>
